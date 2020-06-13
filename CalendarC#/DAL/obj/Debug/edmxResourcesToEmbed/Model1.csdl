@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CalendarModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="BuiltInMemo">
+    <Key>
+      <PropertyRef Name="MemoId" />
+    </Key>
+    <Property Name="MemoId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MemoName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="HebrewTimeId" Type="Int32" Nullable="false" />
+    <Property Name="DayInWeek" Type="Int32" />
+    <Property Name="HebrewDayStart" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="HebrewMonthStart" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="HebrewDayEnd" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="HebrewMonthEnd" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="TimeType" Relationship="Self.FK__BuiltInMe__Hebre__02084FDA" FromRole="BuiltInMemos" ToRole="TimeTypes" />
+    <NavigationProperty Name="MyMemos" Relationship="Self.FK__MyMemos__MemoId__48CFD27E" FromRole="BuiltInMemos" ToRole="MyMemos" />
+  </EntityType>
+  <EntityType Name="KeyWord">
+    <Key>
+      <PropertyRef Name="KeyWordId" />
+    </Key>
+    <Property Name="KeyWordId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KeyWord1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TaskTypeId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="TaskType" Relationship="Self.FK__KeyWords__TaskTy__5AEE82B9" FromRole="KeyWords" ToRole="TaskTypes" />
+    <NavigationProperty Name="LinkParameters" Relationship="Self.FK__LinkParam__KeyWo__4CA06362" FromRole="KeyWords" ToRole="LinkParameters" />
+  </EntityType>
+  <EntityType Name="LinkParameter">
+    <Key>
+      <PropertyRef Name="ParameterId" />
+    </Key>
+    <Property Name="ParameterId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ParameterName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="KeyWordId" Type="Int32" Nullable="false" />
+    <Property Name="PositionWord" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="KeyWord" Relationship="Self.FK__LinkParam__KeyWo__4CA06362" FromRole="LinkParameters" ToRole="KeyWords" />
+  </EntityType>
+  <EntityType Name="MyMemo">
+    <Key>
+      <PropertyRef Name="MyMemoId" />
+    </Key>
+    <Property Name="MyMemoId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MemoId" Type="Int32" Nullable="false" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="AdvanceAlertTime" Type="Time" Nullable="false" Precision="7" />
+    <Property Name="AlertName" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="BuiltInMemo" Relationship="Self.FK__MyMemos__MemoId__48CFD27E" FromRole="MyMemos" ToRole="BuiltInMemos" />
+    <NavigationProperty Name="User" Relationship="Self.FK__MyMemos__UserId__49C3F6B7" FromRole="MyMemos" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="MyTask">
+    <Key>
+      <PropertyRef Name="TaskId" />
+    </Key>
+    <Property Name="TaskId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="TaskTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TaskContent" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="EndDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="AdvanceAlertTime" Type="Time" Nullable="false" Precision="7" />
+    <Property Name="TaskTypeId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="TaskType" Relationship="Self.FK__MyTasks__TaskTyp__6E01572D" FromRole="MyTasks" ToRole="TaskTypes" />
+    <NavigationProperty Name="User" Relationship="Self.FK__MyTasks__UserId__5165187F" FromRole="MyTasks" ToRole="Users" />
+    <NavigationProperty Name="TaskDays" Relationship="Self.FK__TaskDays__TaskId__01142BA1" FromRole="MyTasks" ToRole="TaskDays" />
+  </EntityType>
+  <EntityType Name="TaskDay">
+    <Key>
+      <PropertyRef Name="TaskId" />
+      <PropertyRef Name="DayInWeek" />
+    </Key>
+    <Property Name="TaskId" Type="Int32" Nullable="false" />
+    <Property Name="DayInWeek" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="MyTask" Relationship="Self.FK__TaskDays__TaskId__01142BA1" FromRole="TaskDays" ToRole="MyTasks" />
+  </EntityType>
+  <EntityType Name="TaskType">
+    <Key>
+      <PropertyRef Name="TaskTypeId" />
+    </Key>
+    <Property Name="TaskTypeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TaskTypeName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Link" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="KeyWords" Relationship="Self.FK__KeyWords__TaskTy__5AEE82B9" FromRole="TaskTypes" ToRole="KeyWords" />
+    <NavigationProperty Name="MyTasks" Relationship="Self.FK__MyTasks__TaskTyp__6E01572D" FromRole="TaskTypes" ToRole="MyTasks" />
+  </EntityType>
+  <EntityType Name="TimeType">
+    <Key>
+      <PropertyRef Name="TimeTypeId" />
+    </Key>
+    <Property Name="TimeTypeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TimeTypeName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="BuiltInMemos" Relationship="Self.FK__BuiltInMe__Hebre__02084FDA" FromRole="TimeTypes" ToRole="BuiltInMemos" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserFirstName" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserLastName" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserPassword" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserGooglePassword" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="MyMemos" Relationship="Self.FK__MyMemos__UserId__49C3F6B7" FromRole="Users" ToRole="MyMemos" />
+    <NavigationProperty Name="MyTasks" Relationship="Self.FK__MyTasks__UserId__5165187F" FromRole="Users" ToRole="MyTasks" />
+  </EntityType>
+  <Association Name="FK__BuiltInMe__Hebre__02084FDA">
+    <End Role="TimeTypes" Type="Self.TimeType" Multiplicity="1" />
+    <End Role="BuiltInMemos" Type="Self.BuiltInMemo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TimeTypes">
+        <PropertyRef Name="TimeTypeId" />
+      </Principal>
+      <Dependent Role="BuiltInMemos">
+        <PropertyRef Name="HebrewTimeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MyMemos__MemoId__48CFD27E">
+    <End Role="BuiltInMemos" Type="Self.BuiltInMemo" Multiplicity="1" />
+    <End Role="MyMemos" Type="Self.MyMemo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BuiltInMemos">
+        <PropertyRef Name="MemoId" />
+      </Principal>
+      <Dependent Role="MyMemos">
+        <PropertyRef Name="MemoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__KeyWords__TaskTy__5AEE82B9">
+    <End Role="TaskTypes" Type="Self.TaskType" Multiplicity="1" />
+    <End Role="KeyWords" Type="Self.KeyWord" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TaskTypes">
+        <PropertyRef Name="TaskTypeId" />
+      </Principal>
+      <Dependent Role="KeyWords">
+        <PropertyRef Name="TaskTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__LinkParam__KeyWo__4CA06362">
+    <End Role="KeyWords" Type="Self.KeyWord" Multiplicity="1" />
+    <End Role="LinkParameters" Type="Self.LinkParameter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KeyWords">
+        <PropertyRef Name="KeyWordId" />
+      </Principal>
+      <Dependent Role="LinkParameters">
+        <PropertyRef Name="KeyWordId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MyMemos__UserId__49C3F6B7">
+    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="MyMemos" Type="Self.MyMemo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="MyMemos">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MyTasks__TaskTyp__6E01572D">
+    <End Role="TaskTypes" Type="Self.TaskType" Multiplicity="1" />
+    <End Role="MyTasks" Type="Self.MyTask" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TaskTypes">
+        <PropertyRef Name="TaskTypeId" />
+      </Principal>
+      <Dependent Role="MyTasks">
+        <PropertyRef Name="TaskTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MyTasks__UserId__5165187F">
+    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="MyTasks" Type="Self.MyTask" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="MyTasks">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TaskDays__TaskId__01142BA1">
+    <End Role="MyTasks" Type="Self.MyTask" Multiplicity="1" />
+    <End Role="TaskDays" Type="Self.TaskDay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MyTasks">
+        <PropertyRef Name="TaskId" />
+      </Principal>
+      <Dependent Role="TaskDays">
+        <PropertyRef Name="TaskId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CalendarEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BuiltInMemos" EntityType="Self.BuiltInMemo" />
+    <EntitySet Name="KeyWords" EntityType="Self.KeyWord" />
+    <EntitySet Name="LinkParameters" EntityType="Self.LinkParameter" />
+    <EntitySet Name="MyMemos" EntityType="Self.MyMemo" />
+    <EntitySet Name="MyTasks" EntityType="Self.MyTask" />
+    <EntitySet Name="TaskDays" EntityType="Self.TaskDay" />
+    <EntitySet Name="TaskTypes" EntityType="Self.TaskType" />
+    <EntitySet Name="TimeTypes" EntityType="Self.TimeType" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK__BuiltInMe__Hebre__02084FDA" Association="Self.FK__BuiltInMe__Hebre__02084FDA">
+      <End Role="TimeTypes" EntitySet="TimeTypes" />
+      <End Role="BuiltInMemos" EntitySet="BuiltInMemos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MyMemos__MemoId__48CFD27E" Association="Self.FK__MyMemos__MemoId__48CFD27E">
+      <End Role="BuiltInMemos" EntitySet="BuiltInMemos" />
+      <End Role="MyMemos" EntitySet="MyMemos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__KeyWords__TaskTy__5AEE82B9" Association="Self.FK__KeyWords__TaskTy__5AEE82B9">
+      <End Role="TaskTypes" EntitySet="TaskTypes" />
+      <End Role="KeyWords" EntitySet="KeyWords" />
+    </AssociationSet>
+    <AssociationSet Name="FK__LinkParam__KeyWo__4CA06362" Association="Self.FK__LinkParam__KeyWo__4CA06362">
+      <End Role="KeyWords" EntitySet="KeyWords" />
+      <End Role="LinkParameters" EntitySet="LinkParameters" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MyMemos__UserId__49C3F6B7" Association="Self.FK__MyMemos__UserId__49C3F6B7">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="MyMemos" EntitySet="MyMemos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MyTasks__TaskTyp__6E01572D" Association="Self.FK__MyTasks__TaskTyp__6E01572D">
+      <End Role="TaskTypes" EntitySet="TaskTypes" />
+      <End Role="MyTasks" EntitySet="MyTasks" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MyTasks__UserId__5165187F" Association="Self.FK__MyTasks__UserId__5165187F">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="MyTasks" EntitySet="MyTasks" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TaskDays__TaskId__01142BA1" Association="Self.FK__TaskDays__TaskId__01142BA1">
+      <End Role="MyTasks" EntitySet="MyTasks" />
+      <End Role="TaskDays" EntitySet="TaskDays" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

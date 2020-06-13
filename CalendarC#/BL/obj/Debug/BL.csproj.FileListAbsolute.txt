@@ -1,0 +1,40 @@
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\BL\bin\Debug\BL.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\BL\bin\Debug\BL.pdb
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\BL\bin\Debug\DAL.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\BL\bin\Debug\DTO.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\BL\bin\Debug\EntityFramework.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\BL\bin\Debug\DAL.pdb
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\BL\bin\Debug\DAL.dll.config
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\BL\bin\Debug\DTO.pdb
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\BL\bin\Debug\EntityFramework.xml
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\BL\obj\Debug\BL.csprojAssemblyReference.cache
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\BL\obj\Debug\BL.csproj.CopyComplete
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\BL\obj\Debug\BL.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\BL\obj\Debug\BL.pdb
+D:\programing\projects\Calendar\CalendarC#\BL\obj\Debug\BL.csprojAssemblyReference.cache
+D:\programing\projects\Calendar\CalendarC#\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+D:\programing\projects\Calendar\CalendarC#\BL\obj\Debug\BL.dll
+D:\programing\projects\Calendar\CalendarC#\BL\obj\Debug\BL.pdb
+D:\programing\projects\Calendar\CalendarC#\BL\bin\Debug\BL.dll
+D:\programing\projects\Calendar\CalendarC#\BL\bin\Debug\BL.pdb
+D:\programing\projects\Calendar\CalendarC#\BL\bin\Debug\DAL.dll
+D:\programing\projects\Calendar\CalendarC#\BL\bin\Debug\DTO.dll
+D:\programing\projects\Calendar\CalendarC#\BL\bin\Debug\DAL.pdb
+D:\programing\projects\Calendar\CalendarC#\BL\bin\Debug\DAL.dll.config
+D:\programing\projects\Calendar\CalendarC#\BL\bin\Debug\DTO.pdb
+D:\programing\projects\Calendar\CalendarC#\BL\obj\Debug\BL.csproj.CopyComplete
+D:\programing\projects\CalendarC#\BL\obj\Debug\BL.csprojAssemblyReference.cache
+D:\programing\projects\CalendarC#\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+D:\programing\projects\CalendarC#\BL\obj\Debug\BL.dll
+D:\programing\projects\CalendarC#\BL\obj\Debug\BL.pdb
+D:\programing\projects\CalendarC#\BL\bin\Debug\BL.dll
+D:\programing\projects\CalendarC#\BL\bin\Debug\BL.pdb
+D:\programing\projects\CalendarC#\BL\bin\Debug\DAL.dll
+D:\programing\projects\CalendarC#\BL\bin\Debug\DTO.dll
+D:\programing\projects\CalendarC#\BL\bin\Debug\EntityFramework.dll
+D:\programing\projects\CalendarC#\BL\bin\Debug\DAL.pdb
+D:\programing\projects\CalendarC#\BL\bin\Debug\DAL.dll.config
+D:\programing\projects\CalendarC#\BL\bin\Debug\DTO.pdb
+D:\programing\projects\CalendarC#\BL\bin\Debug\EntityFramework.xml
+D:\programing\projects\CalendarC#\BL\obj\Debug\BL.csproj.CopyComplete

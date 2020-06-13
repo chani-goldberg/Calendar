@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CalendarModelStoreContainer" CdmEntityContainer="CalendarEntities">
+    <EntitySetMapping Name="BuiltInMemos">
+      <EntityTypeMapping TypeName="CalendarModel.BuiltInMemo">
+        <MappingFragment StoreEntitySet="BuiltInMemos">
+          <ScalarProperty Name="MemoId" ColumnName="MemoId" />
+          <ScalarProperty Name="MemoName" ColumnName="MemoName" />
+          <ScalarProperty Name="HebrewTimeId" ColumnName="HebrewTimeId" />
+          <ScalarProperty Name="DayInWeek" ColumnName="DayInWeek" />
+          <ScalarProperty Name="HebrewDayStart" ColumnName="HebrewDayStart" />
+          <ScalarProperty Name="HebrewMonthStart" ColumnName="HebrewMonthStart" />
+          <ScalarProperty Name="HebrewDayEnd" ColumnName="HebrewDayEnd" />
+          <ScalarProperty Name="HebrewMonthEnd" ColumnName="HebrewMonthEnd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KeyWords">
+      <EntityTypeMapping TypeName="CalendarModel.KeyWord">
+        <MappingFragment StoreEntitySet="KeyWords">
+          <ScalarProperty Name="KeyWordId" ColumnName="KeyWordId" />
+          <ScalarProperty Name="KeyWord1" ColumnName="KeyWord" />
+          <ScalarProperty Name="TaskTypeId" ColumnName="TaskTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LinkParameters">
+      <EntityTypeMapping TypeName="CalendarModel.LinkParameter">
+        <MappingFragment StoreEntitySet="LinkParameters">
+          <ScalarProperty Name="ParameterId" ColumnName="ParameterId" />
+          <ScalarProperty Name="ParameterName" ColumnName="ParameterName" />
+          <ScalarProperty Name="KeyWordId" ColumnName="KeyWordId" />
+          <ScalarProperty Name="PositionWord" ColumnName="PositionWord" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MyMemos">
+      <EntityTypeMapping TypeName="CalendarModel.MyMemo">
+        <MappingFragment StoreEntitySet="MyMemos">
+          <ScalarProperty Name="MyMemoId" ColumnName="MyMemoId" />
+          <ScalarProperty Name="MemoId" ColumnName="MemoId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="AdvanceAlertTime" ColumnName="AdvanceAlertTime" />
+          <ScalarProperty Name="AlertName" ColumnName="AlertName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MyTasks">
+      <EntityTypeMapping TypeName="CalendarModel.MyTask">
+        <MappingFragment StoreEntitySet="MyTasks">
+          <ScalarProperty Name="TaskId" ColumnName="TaskId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="TaskTitle" ColumnName="TaskTitle" />
+          <ScalarProperty Name="TaskContent" ColumnName="TaskContent" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="AdvanceAlertTime" ColumnName="AdvanceAlertTime" />
+          <ScalarProperty Name="TaskTypeId" ColumnName="TaskTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaskDays">
+      <EntityTypeMapping TypeName="CalendarModel.TaskDay">
+        <MappingFragment StoreEntitySet="TaskDays">
+          <ScalarProperty Name="TaskId" ColumnName="TaskId" />
+          <ScalarProperty Name="DayInWeek" ColumnName="DayInWeek" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaskTypes">
+      <EntityTypeMapping TypeName="CalendarModel.TaskType">
+        <MappingFragment StoreEntitySet="TaskTypes">
+          <ScalarProperty Name="TaskTypeId" ColumnName="TaskTypeId" />
+          <ScalarProperty Name="TaskTypeName" ColumnName="TaskTypeName" />
+          <ScalarProperty Name="Link" ColumnName="Link" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TimeTypes">
+      <EntityTypeMapping TypeName="CalendarModel.TimeType">
+        <MappingFragment StoreEntitySet="TimeTypes">
+          <ScalarProperty Name="TimeTypeId" ColumnName="TimeTypeId" />
+          <ScalarProperty Name="TimeTypeName" ColumnName="TimeTypeName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="CalendarModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserFirstName" ColumnName="UserFirstName" />
+          <ScalarProperty Name="UserLastName" ColumnName="UserLastName" />
+          <ScalarProperty Name="UserEmail" ColumnName="UserEmail" />
+          <ScalarProperty Name="UserPassword" ColumnName="UserPassword" />
+          <ScalarProperty Name="UserGooglePassword" ColumnName="UserGooglePassword" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

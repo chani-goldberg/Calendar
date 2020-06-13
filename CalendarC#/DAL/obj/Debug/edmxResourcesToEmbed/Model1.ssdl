@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CalendarModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="BuiltInMemos">
+    <Key>
+      <PropertyRef Name="MemoId" />
+    </Key>
+    <Property Name="MemoId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MemoName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="HebrewTimeId" Type="int" Nullable="false" />
+    <Property Name="DayInWeek" Type="int" />
+    <Property Name="HebrewDayStart" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="HebrewMonthStart" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="HebrewDayEnd" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="HebrewMonthEnd" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="KeyWords">
+    <Key>
+      <PropertyRef Name="KeyWordId" />
+    </Key>
+    <Property Name="KeyWordId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KeyWord" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TaskTypeId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LinkParameters">
+    <Key>
+      <PropertyRef Name="ParameterId" />
+    </Key>
+    <Property Name="ParameterId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ParameterName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="KeyWordId" Type="int" Nullable="false" />
+    <Property Name="PositionWord" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MyMemos">
+    <Key>
+      <PropertyRef Name="MyMemoId" />
+    </Key>
+    <Property Name="MyMemoId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MemoId" Type="int" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="AdvanceAlertTime" Type="time" Precision="7" Nullable="false" />
+    <Property Name="AlertName" Type="nvarchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MyTasks">
+    <Key>
+      <PropertyRef Name="TaskId" />
+    </Key>
+    <Property Name="TaskId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="TaskTitle" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TaskContent" Type="nvarchar" MaxLength="1000" Nullable="false" />
+    <Property Name="StartDate" Type="date" Nullable="false" />
+    <Property Name="EndDate" Type="date" Nullable="false" />
+    <Property Name="AdvanceAlertTime" Type="time" Precision="7" Nullable="false" />
+    <Property Name="TaskTypeId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TaskDays">
+    <Key>
+      <PropertyRef Name="TaskId" />
+      <PropertyRef Name="DayInWeek" />
+    </Key>
+    <Property Name="TaskId" Type="int" Nullable="false" />
+    <Property Name="DayInWeek" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TaskTypes">
+    <Key>
+      <PropertyRef Name="TaskTypeId" />
+    </Key>
+    <Property Name="TaskTypeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TaskTypeName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Link" Type="nvarchar" MaxLength="1000" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TimeTypes">
+    <Key>
+      <PropertyRef Name="TimeTypeId" />
+    </Key>
+    <Property Name="TimeTypeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TimeTypeName" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserFirstName" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="UserLastName" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="UserEmail" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="UserPassword" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="UserGooglePassword" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__BuiltInMe__Hebre__02084FDA">
+    <End Role="TimeTypes" Type="Self.TimeTypes" Multiplicity="1" />
+    <End Role="BuiltInMemos" Type="Self.BuiltInMemos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TimeTypes">
+        <PropertyRef Name="TimeTypeId" />
+      </Principal>
+      <Dependent Role="BuiltInMemos">
+        <PropertyRef Name="HebrewTimeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__KeyWords__TaskTy__5AEE82B9">
+    <End Role="TaskTypes" Type="Self.TaskTypes" Multiplicity="1" />
+    <End Role="KeyWords" Type="Self.KeyWords" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TaskTypes">
+        <PropertyRef Name="TaskTypeId" />
+      </Principal>
+      <Dependent Role="KeyWords">
+        <PropertyRef Name="TaskTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__LinkParam__KeyWo__4CA06362">
+    <End Role="KeyWords" Type="Self.KeyWords" Multiplicity="1" />
+    <End Role="LinkParameters" Type="Self.LinkParameters" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KeyWords">
+        <PropertyRef Name="KeyWordId" />
+      </Principal>
+      <Dependent Role="LinkParameters">
+        <PropertyRef Name="KeyWordId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MyMemos__MemoId__48CFD27E">
+    <End Role="BuiltInMemos" Type="Self.BuiltInMemos" Multiplicity="1" />
+    <End Role="MyMemos" Type="Self.MyMemos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BuiltInMemos">
+        <PropertyRef Name="MemoId" />
+      </Principal>
+      <Dependent Role="MyMemos">
+        <PropertyRef Name="MemoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MyMemos__UserId__49C3F6B7">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="MyMemos" Type="Self.MyMemos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="MyMemos">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MyTasks__TaskTyp__6E01572D">
+    <End Role="TaskTypes" Type="Self.TaskTypes" Multiplicity="1" />
+    <End Role="MyTasks" Type="Self.MyTasks" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TaskTypes">
+        <PropertyRef Name="TaskTypeId" />
+      </Principal>
+      <Dependent Role="MyTasks">
+        <PropertyRef Name="TaskTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MyTasks__UserId__5165187F">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="MyTasks" Type="Self.MyTasks" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="MyTasks">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TaskDays__TaskId__01142BA1">
+    <End Role="MyTasks" Type="Self.MyTasks" Multiplicity="1" />
+    <End Role="TaskDays" Type="Self.TaskDays" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MyTasks">
+        <PropertyRef Name="TaskId" />
+      </Principal>
+      <Dependent Role="TaskDays">
+        <PropertyRef Name="TaskId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CalendarModelStoreContainer">
+    <EntitySet Name="BuiltInMemos" EntityType="Self.BuiltInMemos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KeyWords" EntityType="Self.KeyWords" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LinkParameters" EntityType="Self.LinkParameters" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MyMemos" EntityType="Self.MyMemos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MyTasks" EntityType="Self.MyTasks" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TaskDays" EntityType="Self.TaskDays" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TaskTypes" EntityType="Self.TaskTypes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TimeTypes" EntityType="Self.TimeTypes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__BuiltInMe__Hebre__02084FDA" Association="Self.FK__BuiltInMe__Hebre__02084FDA">
+      <End Role="TimeTypes" EntitySet="TimeTypes" />
+      <End Role="BuiltInMemos" EntitySet="BuiltInMemos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__KeyWords__TaskTy__5AEE82B9" Association="Self.FK__KeyWords__TaskTy__5AEE82B9">
+      <End Role="TaskTypes" EntitySet="TaskTypes" />
+      <End Role="KeyWords" EntitySet="KeyWords" />
+    </AssociationSet>
+    <AssociationSet Name="FK__LinkParam__KeyWo__4CA06362" Association="Self.FK__LinkParam__KeyWo__4CA06362">
+      <End Role="KeyWords" EntitySet="KeyWords" />
+      <End Role="LinkParameters" EntitySet="LinkParameters" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MyMemos__MemoId__48CFD27E" Association="Self.FK__MyMemos__MemoId__48CFD27E">
+      <End Role="BuiltInMemos" EntitySet="BuiltInMemos" />
+      <End Role="MyMemos" EntitySet="MyMemos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MyMemos__UserId__49C3F6B7" Association="Self.FK__MyMemos__UserId__49C3F6B7">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="MyMemos" EntitySet="MyMemos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MyTasks__TaskTyp__6E01572D" Association="Self.FK__MyTasks__TaskTyp__6E01572D">
+      <End Role="TaskTypes" EntitySet="TaskTypes" />
+      <End Role="MyTasks" EntitySet="MyTasks" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MyTasks__UserId__5165187F" Association="Self.FK__MyTasks__UserId__5165187F">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="MyTasks" EntitySet="MyTasks" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TaskDays__TaskId__01142BA1" Association="Self.FK__TaskDays__TaskId__01142BA1">
+      <End Role="MyTasks" EntitySet="MyTasks" />
+      <End Role="TaskDays" EntitySet="TaskDays" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

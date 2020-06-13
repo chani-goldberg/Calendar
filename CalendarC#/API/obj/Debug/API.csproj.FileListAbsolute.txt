@@ -1,0 +1,234 @@
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\API.dll.config
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\API.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\API.pdb
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\csc.exe
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\csc.exe.config
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\csc.rsp
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\csi.exe
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\csi.exe.config
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\csi.rsp
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\Microsoft.CSharp.Core.targets
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\Microsoft.Managed.Core.targets
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\System.AppContext.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\System.Collections.Immutable.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\System.Console.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\System.Diagnostics.StackTrace.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\System.IO.Compression.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\System.IO.FileSystem.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\System.IO.Pipes.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\System.Reflection.Metadata.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\System.Security.AccessControl.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\System.Security.Claims.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\System.Security.Principal.Windows.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\System.Text.Encoding.CodePages.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\System.ValueTuple.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\System.Xml.ReaderWriter.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\System.Xml.XmlDocument.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\System.Xml.XPath.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\System.Xml.XPath.XDocument.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\vbc.exe
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\vbc.exe.config
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\vbc.rsp
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\VBCSCompiler.exe
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\roslyn\VBCSCompiler.exe.config
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\BL.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\DTO.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\EntityFramework.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\EntityFramework.SqlServer.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\Newtonsoft.Json.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\System.Net.Http.Formatting.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\System.Web.Http.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\System.Web.Http.WebHost.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\BL.pdb
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\DTO.pdb
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\EntityFramework.xml
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\EntityFramework.SqlServer.xml
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\Newtonsoft.Json.xml
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\System.Net.Http.Formatting.xml
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\System.Web.Http.xml
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\System.Web.Http.WebHost.xml
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\obj\Debug\API.csprojAssemblyReference.cache
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\obj\Debug\API.csproj.CoreCompileInputs.cache
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\obj\Debug\API.csproj.CopyComplete
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\obj\Debug\API.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\obj\Debug\API.pdb
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\System.Web.Cors.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\System.Web.Http.Cors.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\DAL.dll
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\System.Web.Http.Cors.xml
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\DAL.pdb
+Y:\Teachers\Shimonovich\פרויקט סיום\Templates5780G3\ServerSideApplication\API\bin\DAL.dll.config
+D:\programing\projects\Calendar\CalendarC#\API\bin\API.dll.config
+D:\programing\projects\Calendar\CalendarC#\API\bin\API.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\API.pdb
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\csc.exe
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\csc.exe.config
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\csc.rsp
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\csi.exe
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\csi.exe.config
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\csi.rsp
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\Microsoft.Managed.Core.targets
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\System.AppContext.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\System.Collections.Immutable.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\System.Console.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\System.IO.Compression.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\System.IO.FileSystem.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\System.IO.Pipes.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\System.Reflection.Metadata.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\System.Security.AccessControl.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\System.Security.Claims.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\System.Security.Principal.Windows.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\System.ValueTuple.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\System.Xml.XmlDocument.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\System.Xml.XPath.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\vbc.exe
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\vbc.exe.config
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\vbc.rsp
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\VBCSCompiler.exe
+D:\programing\projects\Calendar\CalendarC#\API\bin\roslyn\VBCSCompiler.exe.config
+D:\programing\projects\Calendar\CalendarC#\API\bin\BL.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\DTO.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\EntityFramework.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\EntityFramework.SqlServer.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\Newtonsoft.Json.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\System.Net.Http.Formatting.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\System.Web.Cors.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\System.Web.Http.Cors.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\System.Web.Http.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\System.Web.Http.WebHost.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\DAL.dll
+D:\programing\projects\Calendar\CalendarC#\API\bin\BL.pdb
+D:\programing\projects\Calendar\CalendarC#\API\bin\DTO.pdb
+D:\programing\projects\Calendar\CalendarC#\API\bin\EntityFramework.xml
+D:\programing\projects\Calendar\CalendarC#\API\bin\EntityFramework.SqlServer.xml
+D:\programing\projects\Calendar\CalendarC#\API\bin\System.Net.Http.Formatting.xml
+D:\programing\projects\Calendar\CalendarC#\API\bin\System.Web.Http.xml
+D:\programing\projects\Calendar\CalendarC#\API\bin\System.Web.Http.Cors.xml
+D:\programing\projects\Calendar\CalendarC#\API\bin\Newtonsoft.Json.xml
+D:\programing\projects\Calendar\CalendarC#\API\bin\System.Web.Http.WebHost.xml
+D:\programing\projects\Calendar\CalendarC#\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\programing\projects\Calendar\CalendarC#\API\bin\DAL.pdb
+D:\programing\projects\Calendar\CalendarC#\API\bin\DAL.dll.config
+D:\programing\projects\Calendar\CalendarC#\API\obj\Debug\API.csprojAssemblyReference.cache
+D:\programing\projects\Calendar\CalendarC#\API\obj\Debug\API.csproj.CoreCompileInputs.cache
+D:\programing\projects\Calendar\CalendarC#\API\obj\Debug\API.csproj.CopyComplete
+D:\programing\projects\Calendar\CalendarC#\API\obj\Debug\API.dll
+D:\programing\projects\Calendar\CalendarC#\API\obj\Debug\API.pdb
+D:\programing\projects\CalendarC#\API\bin\API.dll.config
+D:\programing\projects\CalendarC#\API\bin\API.dll
+D:\programing\projects\CalendarC#\API\bin\API.pdb
+D:\programing\projects\CalendarC#\API\bin\roslyn\csc.exe
+D:\programing\projects\CalendarC#\API\bin\roslyn\csc.exe.config
+D:\programing\projects\CalendarC#\API\bin\roslyn\csc.rsp
+D:\programing\projects\CalendarC#\API\bin\roslyn\csi.exe
+D:\programing\projects\CalendarC#\API\bin\roslyn\csi.exe.config
+D:\programing\projects\CalendarC#\API\bin\roslyn\csi.rsp
+D:\programing\projects\CalendarC#\API\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\programing\projects\CalendarC#\API\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\Microsoft.Managed.Core.targets
+D:\programing\projects\CalendarC#\API\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\programing\projects\CalendarC#\API\bin\roslyn\System.AppContext.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\System.Collections.Immutable.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\System.Console.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\System.IO.Compression.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\System.IO.FileSystem.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\System.IO.Pipes.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\System.Reflection.Metadata.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\System.Security.AccessControl.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\System.Security.Claims.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\System.Security.Principal.Windows.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\System.ValueTuple.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\System.Xml.XmlDocument.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\System.Xml.XPath.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\programing\projects\CalendarC#\API\bin\roslyn\vbc.exe
+D:\programing\projects\CalendarC#\API\bin\roslyn\vbc.exe.config
+D:\programing\projects\CalendarC#\API\bin\roslyn\vbc.rsp
+D:\programing\projects\CalendarC#\API\bin\roslyn\VBCSCompiler.exe
+D:\programing\projects\CalendarC#\API\bin\roslyn\VBCSCompiler.exe.config
+D:\programing\projects\CalendarC#\API\bin\BL.dll
+D:\programing\projects\CalendarC#\API\bin\DTO.dll
+D:\programing\projects\CalendarC#\API\bin\EntityFramework.dll
+D:\programing\projects\CalendarC#\API\bin\EntityFramework.SqlServer.dll
+D:\programing\projects\CalendarC#\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\programing\projects\CalendarC#\API\bin\Newtonsoft.Json.dll
+D:\programing\projects\CalendarC#\API\bin\System.Net.Http.Formatting.dll
+D:\programing\projects\CalendarC#\API\bin\System.Web.Cors.dll
+D:\programing\projects\CalendarC#\API\bin\System.Web.Http.Cors.dll
+D:\programing\projects\CalendarC#\API\bin\System.Web.Http.dll
+D:\programing\projects\CalendarC#\API\bin\System.Web.Http.WebHost.dll
+D:\programing\projects\CalendarC#\API\bin\DAL.dll
+D:\programing\projects\CalendarC#\API\bin\BL.pdb
+D:\programing\projects\CalendarC#\API\bin\DTO.pdb
+D:\programing\projects\CalendarC#\API\bin\EntityFramework.xml
+D:\programing\projects\CalendarC#\API\bin\EntityFramework.SqlServer.xml
+D:\programing\projects\CalendarC#\API\bin\System.Net.Http.Formatting.xml
+D:\programing\projects\CalendarC#\API\bin\System.Web.Http.xml
+D:\programing\projects\CalendarC#\API\bin\System.Web.Http.Cors.xml
+D:\programing\projects\CalendarC#\API\bin\Newtonsoft.Json.xml
+D:\programing\projects\CalendarC#\API\bin\System.Web.Http.WebHost.xml
+D:\programing\projects\CalendarC#\API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\programing\projects\CalendarC#\API\bin\DAL.pdb
+D:\programing\projects\CalendarC#\API\bin\DAL.dll.config
+D:\programing\projects\CalendarC#\API\obj\Debug\API.csprojAssemblyReference.cache
+D:\programing\projects\CalendarC#\API\obj\Debug\API.csproj.CoreCompileInputs.cache
+D:\programing\projects\CalendarC#\API\obj\Debug\API.csproj.CopyComplete
+D:\programing\projects\CalendarC#\API\obj\Debug\API.dll
+D:\programing\projects\CalendarC#\API\obj\Debug\API.pdb

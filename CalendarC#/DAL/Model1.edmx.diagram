@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7deea9c1a0d24e5a8246e969adfaecba" Name="Diagram1">
+        <EntityTypeShape EntityType="CalendarModel.BuiltInMemo" Width="1.5" PointX="0.75" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CalendarModel.KeyWord" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CalendarModel.LinkParameter" Width="1.5" PointX="5.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CalendarModel.MyMemo" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CalendarModel.MyTask" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CalendarModel.TaskDay" Width="1.5" PointX="5.25" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CalendarModel.TaskType" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CalendarModel.TimeType" Width="1.5" PointX="1.5" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CalendarModel.User" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <AssociationConnector Association="CalendarModel.FK__BuiltInMe__Hebre__02084FDA" ManuallyRouted="false" />
+        <AssociationConnector Association="CalendarModel.FK__MyMemos__MemoId__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="CalendarModel.FK__KeyWords__TaskTy__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="CalendarModel.FK__LinkParam__KeyWo__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="CalendarModel.FK__MyMemos__UserId__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="CalendarModel.FK__MyTasks__TaskTyp__6E01572D" ManuallyRouted="false" />
+        <AssociationConnector Association="CalendarModel.FK__MyTasks__UserId__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="CalendarModel.FK__TaskDays__TaskId__01142BA1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
